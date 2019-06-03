@@ -77,10 +77,9 @@ hi link TabLineSel PmenuSel
 " Code-specific colors --------------------------------------------------------
 
 " Markdown
-
 hi link markdownCodeDelimiter Comment
-" Makefile
 
+" Makefile
 hi link makeTarget Directory
 hi link makeCommands Normal
 hi link makeIdent Type
@@ -206,15 +205,16 @@ hi pythonOperator   guifg=#7e8aa2 gui=none
 hi pythonExClass    guifg=#009000 gui=none
 hi pythonStatement  guifg=#857b6f
 hi link pythonPreCondit pythonStatement
-hi link pythonComment pythonImport
+hi link pythonComment Comment
 hi link pythonCoding pythonComment
-hi link pythonDecorator pythonImport
 hi link pythonDottedName pythonImport
 hi link pythonString String
 hi pythonConditional guifg=#7e8aa2
-hi link pythonStatement pythonComment
+"hi link pythonStatement pythonComment
 hi pythonFunction guifg=#e1d0be
 hi link pythonBuiltinFunc Normal
+hi link pythonDecorator pythonStatement
+hi link pythonDecoratorName pythonFunction
 
 " ViM
 hi vimCommand       guifg=#808080
