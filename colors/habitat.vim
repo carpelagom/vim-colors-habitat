@@ -1,6 +1,6 @@
 " Maintainer:		nklas
 " Version:      0.0.3
-" Last Change:	2016-07-24
+" Last Change:	2019-06-03
 " Credits:      This is a modification of hornet.vim color scheme
 
 set background=dark
@@ -41,8 +41,8 @@ hi SignColumn                           guifg=#252525   guibg=#252525   gui=none
 
 " Syntax highlighting ---------------------------------------------------------
 
-"hi Comment                              guifg=#404040                   gui=none
-hi Comment                              guifg=#7fc6bc                    gui=none
+hi Comment                              guifg=#404040                   gui=none
+"hi Comment                              guifg=#7fc6bc                    gui=none
 hi Todo                                 guifg=#fec135                   gui=none
 hi Boolean                              guifg=#b1d631                   gui=none
 hi String                               guifg=#faf4c6                   gui=none
@@ -76,6 +76,9 @@ hi link TabLineSel PmenuSel
 
 " Code-specific colors --------------------------------------------------------
 
+" Markdown
+
+hi link markdownCodeDelimiter Comment
 " Makefile
 
 hi link makeTarget Directory
@@ -104,6 +107,7 @@ hi link sassInterpolationDelimiter Comment
 " CSS
 hi link style Directory
 hi link cssNoise Comment
+hi link cssComment Comment
 hi link cssAttrComma cssNoise
 hi link cssAttrRegion Constant
 hi link cssClassName htmlArg
@@ -271,7 +275,6 @@ hi coffeeInterpDelim guifg=#ff9800
 hi link coffeeConstant Constant
 hi link coffeeCurly Directory
 hi link coffeeBoolean Type
-
 
 hi link NERDTreeDirSlash Comment
 hi link NERDTreeHelpTitle Comment
