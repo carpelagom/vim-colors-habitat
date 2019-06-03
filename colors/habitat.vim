@@ -215,6 +215,8 @@ hi pythonFunction guifg=#e1d0be
 hi link pythonBuiltinFunc Normal
 hi link pythonDecorator pythonStatement
 hi link pythonDecoratorName pythonFunction
+hi link pythonDoctest pythonImport
+hi link pythonDoctestValue pythonConditional
 
 " ViM
 hi vimCommand       guifg=#808080
