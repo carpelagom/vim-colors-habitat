@@ -41,8 +41,9 @@ hi SignColumn                           guifg=#252525   guibg=#252525   gui=none
 
 " Syntax highlighting ---------------------------------------------------------
 
-hi Comment                              guifg=#404040                   gui=none
-"hi Comment                              guifg=#7fc6bc                    gui=none
+"hi Comment                             guifg=#404040                  gui=none
+hi Comment                              guifg=#808080 	                gui=none
+"hi Comment                             guifg=#7fc6bc                  gui=none
 hi Todo                                 guifg=#fec135                   gui=none
 hi Boolean                              guifg=#b1d631                   gui=none
 hi String                               guifg=#faf4c6                   gui=none
@@ -217,6 +218,7 @@ hi link pythonDecorator pythonStatement
 hi link pythonDecoratorName pythonFunction
 hi link pythonDoctest pythonImport
 hi link pythonDoctestValue pythonConditional
+hi link pythonEscape pythonConditional
 
 " ViM
 hi vimCommand       guifg=#808080
