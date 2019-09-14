@@ -15,7 +15,7 @@ let colors_name = "habitat"
 
 " General colors --------------------------------------------------------------
 
-hi Cursor                               guifg=#000000   guibg=#ffffff   gui=none
+hi Cursor                               guifg=#000000   		gui=none
 hi Normal                               guifg=#e2e2e5   guibg=#252525   gui=none
 hi NonText                              guifg=#303030   guibg=#252525   gui=none
 hi LineNr                               guifg=#303030   guibg=#252525   gui=none
