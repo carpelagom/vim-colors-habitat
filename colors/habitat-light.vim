@@ -82,7 +82,7 @@ call s:Hi("TabLine",				s:white,					s:grey,					"NONE")
 call s:Hi("TabLineSel",			s:accent,					"NONE",					"NONE")
 call s:Hi("TabLineFill",		s:white,					s:white,				"NONE")
 
-call s:Hi("Comment",				s:nobel,					"NONE",					"italic")
+call s:Hi("Comment",				s:nobel,					s:dstorm,					"italic")
 call s:Hi("Statement",			s:clementine,			"NONE",					"NONE")
 call s:Hi("String",					s:mint,						"NONE",					"NONE")
 call s:Hi("Number",					s:lavender,				"NONE",					"NONE")
@@ -93,13 +93,14 @@ call s:Hi("Identifier",			s:clementine,			"NONE",					"NONE")
 " - NERDTree
 
 hi link NERDTreeDir Directory
-hi link NERDTreeDirSlash Comment
+hi link NERDTreeDirSlash NERDTreeDir
 hi link NERDTreeFile Normal
 hi link NERDTreeLinkFile Normal
 hi link NERDTreeLink Normal
 hi link NERDTreeLinkDir Normal
 hi link NERDTreeLinkTarget Comment
 hi link NERDTreeCurrentNode Error
+
 " - CtrlP
 call s:Hi("CtrlPMatch",			s:accent,					"NONE",					"NONE")
 call s:Hi("CtrlPMode1",			s:accent,					"NONE",					"NONE")
@@ -158,5 +159,3 @@ hi link markdownHeadingDelimiter String
 hi link markdownBoldDelimiter Comment
 hi link markdownItalicDelimiter Comment
 
-" NERDTree
-hi link NERDTreeDirSlash NERDTreeDir
