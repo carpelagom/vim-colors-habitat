@@ -159,3 +159,5 @@ hi link markdownHeadingDelimiter String
 hi link markdownBoldDelimiter Comment
 hi link markdownItalicDelimiter Comment
 
+hi link confComment Comment
+
