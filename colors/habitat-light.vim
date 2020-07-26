@@ -157,3 +157,6 @@ call s:Hi("vimCommentTitle", 		s:denim,	"NONE", 	"bold")
 hi link markdownHeadingDelimiter String
 hi link markdownBoldDelimiter Comment
 hi link markdownItalicDelimiter Comment
+
+" NERDTree
+hi link NERDTreeDirSlash NERDTreeDir
