@@ -82,7 +82,7 @@ call s:Hi("TabLine",				s:white,					s:grey,					"NONE")
 call s:Hi("TabLineSel",			s:accent,					"NONE",					"NONE")
 call s:Hi("TabLineFill",		s:white,					s:white,				"NONE")
 
-call s:Hi("Comment",				s:nobel,					"NONE",					"italic")
+call s:Hi("Comment",				s:mako,					s:dstorm,					"italic")
 call s:Hi("Statement",			s:clementine,			"NONE",					"NONE")
 call s:Hi("String",					s:mint,						"NONE",					"NONE")
 call s:Hi("Number",					s:lavender,				"NONE",					"NONE")
