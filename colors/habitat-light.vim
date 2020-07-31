@@ -109,7 +109,6 @@ call s:Hi("CtrlPStatus",		s:sunsetoc,				"NONE",					"NONE")
 
 " Highlight links
 hi link javascript Normal
-hi link javascriptBraces javascript
 hi link javascriptIdentifier Identifier
 hi link javascriptString String
 hi link javascriptStringS String
